@@ -40,7 +40,6 @@
         <property name="locations">
             <list>
                 <value>classpath*:/jdbc-mysql.properties</value>
-                <value>classpath*:/application.properties</value>
                 <value>classpath*:/zoo.properties</value>
                 <value>classpath*:/redis-config.properties</value>
                 <value>classpath*:/application.properties</value>

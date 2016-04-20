@@ -1,5 +1,8 @@
 #!/bin/bash
 
+export ONLINE_CONFIG_PATH=/Users/lejing/workspaces/git_workspace/proj_template/disconf/disconf-rd/online-resources
+export WAR_ROOT_PATH=/Users/lejing/workspaces/git_workspace/proj_template/disconf/disconf-rd/war
+
 #
 # 一个简单的 WAR&&静态代码 部署脚本, 执行时必须在disconf-web目录下执行本脚本
 #

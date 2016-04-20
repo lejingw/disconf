@@ -60,7 +60,7 @@ disconf-web
 	
 **将你的配置文件放到此地址目录下（以下地址可自行设定）：**
 
-	home/work/dsp/disconf-rd/online-resources
+	/Users/lejing/workspaces/git_workspace/proj_template/disconf/disconf-rd/online-resources
 
 配置文件包括：
 
@@ -69,24 +69,21 @@ disconf-web
 	- zoo.properties (Zookeeper配置)
 	- application.properties (应用配置）
 
-注意，记得执行将application-demo.properties复制成application.properties：
- 
-    cp application-demo.properties application.properties 
 
 **设置War包将要被部署的地址（以下地址可自行设定）：**
 
-	/home/work/dsp/disconf-rd/war
+	/Users/lejing/workspaces/git_workspace/proj_template/disconf/disconf-rd/war
 
 ### 构建 ###
 
-	ONLINE_CONFIG_PATH=/home/work/dsp/disconf-rd/online-resources
-	WAR_ROOT_PATH=/home/work/dsp/disconf-rd/war
+	ONLINE_CONFIG_PATH=/Users/lejing/workspaces/git_workspace/proj_template/disconf/disconf-rd/online-resources
+	WAR_ROOT_PATH=/Users/lejing/workspaces/git_workspace/proj_template/disconf/disconf-rd/war
 	export ONLINE_CONFIG_PATH
 	export WAR_ROOT_PATH
 	cd disconf-web
 	sh deploy/deploy.sh
 
-这样会在	/home/work/dsp/disconf-rd/war 生成以下结果：
+这样会在	/Users/lejing/workspaces/git_workspace/proj_template/disconf/disconf-rd/war 生成以下结果：
 
 	-disconf-web.war  
 	-html  

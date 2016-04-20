@@ -105,9 +105,8 @@ public class UserCreateCommon {
                 System.out.format("DELETE FROM `user` where user_id=%d;\n", user.getId());
             }
             System.out
-                    .format("INSERT INTO `user` (`user_id`, `name`, `password`, `token`, `ownapps`,`role_id`) VALUES "
-                                    + "(%d,"
-                                    +
+                    .format("INSERT INTO `user` (`user_id`, `name`, `password`, `token`, `ownapps`,`role_id`) VALUES " +
+                                    "(%d," +
                                     " '%s', " +
                                     "'%s', '%s','%s', '%d');\n", user.getId(), user.getName(), user.getPassword(),
                             user.getToken(), user.getOwnApps(), user.getRoleId());
